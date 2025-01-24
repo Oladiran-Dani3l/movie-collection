@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* COLLABORATION COMMENTS */
+/* In an effort to make the page feel interactive, I've made the descriptions concerning the movie to appear when movie is hovered */
+/* Overview code- line 49*/
+/* Overview hover- line 66 */
+
+
 body {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -60,6 +66,12 @@ h1 {
 .movie:hover .overview {
     opacity: 1;
 }
+
+
+
+
+
+
 /* #movie-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
