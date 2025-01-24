@@ -9,6 +9,7 @@
 /* In an effort to make the page feel interactive, I've made the descriptions concerning the movie to appear when movie is hovered */
 /* Overview code- line 49*/
 /* Overview hover- line 66 */
+/* Styling of genre-filter- line 33 */
 
 
 body {
@@ -28,6 +29,20 @@ header {
 h1 {
     font-size: 64px;
 }
+
+#genre-filter {
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#genre-filter:focus {
+    outline: none;
+    border: 2px solid #008b8a;
+}
+
 
 #movie-grid {
     display: grid;

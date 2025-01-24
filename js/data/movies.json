@@ -1,0 +1,9 @@
+{
+    "movies": [
+        {
+            "name": "Dune",
+            "year": "2021",
+            "genre": ["Adventure", "Scifi"]
+        }
+    ]
+}
