@@ -52,6 +52,11 @@ h1 {
     transform: all 0.5s ease;
 }
 
+.movie h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
 .movie:hover .overview {
     opacity: 1;
 }
