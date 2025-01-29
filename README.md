@@ -6,4 +6,4 @@ Working in pairs to create a movie collection, to foster collaboration, familiar
 - README.md - Overview of task, repository navigation, tasks handled.
 - Js folder - app.js file
 - css folder - initial styling, style.css file
-- images folder - images used in movie collection
+- images folder - images used in movie collection, Github workflow screenshots
