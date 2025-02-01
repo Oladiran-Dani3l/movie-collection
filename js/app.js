@@ -27,7 +27,7 @@ function loadMovies() {
             year: "2009",
             genre: ["Family", "Comedy"],
             overview: "An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation.",
-            image: "images/fantastic-mr-fox.jpg"
+            image: "images/fantastic-mr-fox.jfif"
         },
         
         {
@@ -59,7 +59,7 @@ function loadMovies() {
             year: "2014",
             genre: ["Adventure", "Scifi"],
             overview:"When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
-            image: "images/interstellar-2.jfif"
+            image: "images/interstellar.jpg"
         },
         
         {
@@ -83,7 +83,7 @@ function loadMovies() {
             year: "2023",
             genre: ["Thriller", "Historical drama"],
             overview:"A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II.",
-            image: "images/oppenheimer.jpg"
+            image: "images/oppenheimer-2.jfif"
         }
     ];
 

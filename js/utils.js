@@ -15,16 +15,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     });
-  });
-
-
-//   function filterMovies() {
-//     const filterValue = document.getElementById('genre-filter').value.toLowerCase();
-
-//     const filteredMovies = allMovies.filter(movie =>
-//         movie.genre.some(g => g.toLowerCase().includes(filterValue))
-//     );
-
-//     displayMovies(filteredMovies);
-
-//   }
+});
