@@ -4,11 +4,11 @@ Working in pairs to create a movie collection, to foster collaboration, familiar
 ## Project Documentation
 
 ## Repository Contents
-- Line 11 - Navigating repository
-- Line 20 - Deployed Website
-- Line 26 - Feature lists and implementation details
-- Line 32 - CLI Commands Used
-- Line 35 - Lessons learned from collaboration
+- Line 14 - Navigating repository
+- Line 23 - Deployed Website
+- Line 27 - Feature lists and implementation details
+- Line 36 - CLI Commands Used
+- Line 34 - Lessons learned from collaboration
 
 
 ## Navigating repository instructions
@@ -45,3 +45,4 @@ Working in pairs to create a movie collection, to foster collaboration, familiar
 - Better understanding of working with Git from the terminal
 - Learnt better ettiquettes concerning pull requests; 
 - Each request must be followed with comments explaining what exactly was changed, the type of change (functional, UI, cleanup of unnecessary code) and should also be followed with screenshots of changes where necessary.
+- Learnt to be careful with the files changes are being made to as this creates complex merge conflicts
