@@ -1,20 +1,21 @@
-function displayMovies(movieCollection) {
-    const movieGrid = document.getElementById('movie-grid');
-    movieGrid.innerHTML = '';
+function displayMovies(movies) {
+    const movieGrid = document.getElementById("movie-grid");
+    movieGrid.innerHTML = ""; // Clear previous results
 
-    movieCollection.forEach(movie => {
-        const movieDiv = document.createElement('div');
-        movieDiv.className = 'card';
-        
-        movieDiv.innerHTML = `
+    movies.forEach(movie => {
+        const movieElement = document.createElement("div");
+        movieElement.classList.add("movie");
+
+        movieElement.innerHTML = `
             <img src="${movie.image}" alt="${movie.name}" class="poster">
-                <div class="overview">
-                    <p>Release Year: ${movie.year}</p> 
-                    <p class="genre">Genre: ${movie.genre}</p>
-                    <p class="description">${movie.overview}</p>
-                </div>
-                <h3 class="movie-title">${movie.name}</h3>
+            <div class="overview">
+                <p>Release Year: ${movie.year}</p> 
+                <p class="genre">Genre: ${movie.genre.join(", ")}</p>
+                <p class="description">${movie.overview}</p>
+            </div>
+            <h3 class="movie-title">${movie.name}</h3>
         `;
-        movieGrid.appendChild(movieDiv);
+
+        movieGrid.appendChild(movieElement);
     });
 }
