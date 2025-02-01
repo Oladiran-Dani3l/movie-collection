@@ -83,7 +83,7 @@ function loadMovies() {
             year: "2023",
             genre: ["Thriller", "Historical drama"],
             overview:"A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II.",
-            image: "images/oppenheimer.jfif"
+            image: "images/oppenheimer-2.jfif"
         }
     ];
 
